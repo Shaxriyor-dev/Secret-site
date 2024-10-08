@@ -1,0 +1,99 @@
+@import url(/style/main.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f6f6f6;
+}
+
+#spes {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px 20px;  
+    height: 478px; 
+    width: 450px;   
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.imgs{
+    width: 502px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+h2 {
+   text-align: center;
+   font-family: cursive;
+   margin-top: 60px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 7px;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#loginForm{
+    padding: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+
+.success {
+    color: #5bc0de;
+    font-size: 17px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#salom{
+    display: flex;
+    align-items: center;
+}
+.juma{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+
