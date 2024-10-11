@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+#spes{
     background: #f6f6f6;
 }
 
@@ -29,7 +29,8 @@ body{
     
 }
 .imgs{
-    width: 502px;
+    width: 500px;
+    height: 480px;
     border-radius: 0px 20px 20px 0px;
 }
 
@@ -61,7 +62,7 @@ input {
     padding: 20px;
 }
 
-button {
+#button {
     width: 100%;
     padding: 10px;
     background-color: #28a745;
@@ -73,7 +74,7 @@ button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-button:hover {
+#button:hover {
     background-color: #218838;
 }
 
@@ -94,6 +95,104 @@ button:hover {
     margin-top: 20px;
 }
 
+.hero{
+    gap: 7px;
+    display: flex;
+    align-items: center;
+}
+.Default{
+    outline: none;
+    background: #ffffff;
+}
 
+.submi-b{
+    height: 0px;
+    width: 0px;
+    background: #fff;
+}
 
+.input-item{
+    width: 350px;
+    height: 45px;
+    padding: 0px 10px;
+    display: flex;
+    background: #F7F7F7;
+    align-items: center;
+    border-radius: 5px;
+}
+#inputs{
+    width: 350px;
+    height: 40px;
+    background: #F7F7F7;
+    border: solid #F7F7F7;
+}
+.pass{
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.small{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.dirf{
+    height: 33px;
+    width: 2px;
+    background: #a7a7a7;
+}
+.login-pages{
+    gap: 35px;
+    display: flex;
+    align-items: center ;
+}
+nav{
+    gap: 5rem;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fff{
+    gap: 60px;
+    display: flex;
+    align-items: center;
 
+}
+.profil{
+    gap: 18px;
+    display: flex;
+    align-items: center;
+}
+.my-profil{
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bno{
+    text-decoration: none;
+}
+.spam{
+    color: #FFF;
+     height: 18px;
+     width: 18px;
+     display: flex;
+     border-radius: 50%;
+     align-items: center;
+     justify-content: center;
+     background: #7FAD39;
+    text-decoration: none;
+    font-size: 16px;
+    position: absolute;
+    margin-top: -32px;
+    margin-left: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.kich{
+    width: 100px;
+    height: 2px;
+    background: #CECECE;
+}
